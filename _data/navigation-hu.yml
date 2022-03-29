@@ -10,3 +10,7 @@
   link: /kapcsolat/
   new_window: false
   highlight: false
+  - name: Sajtóközlemény
+    link: /sajtokozlemeny.pdf
+    new_window: false
+    highlight: false
