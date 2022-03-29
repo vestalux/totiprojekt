@@ -1,19 +1,15 @@
 - links:
-  - name: Blog
-    link: /blog/
-  - name: Rólunk
-    link: /rolunk/
   - name: Kapcsolat
     link: /kapcsolat/
 
 - links:
   - name: Facebook
-    link: https://facebook.com/sensotextil
+    link: https://facebook.com/lengyeltoti
     new_window: true
     social_icon: Facebook
-  - name: Twitter
-    link: https://twitter.com/sensotextil
-    social_icon: Twitter
+  - name: Web
+    link: http://lengyeltoti.hu
+    social_icon: Web
     new_window: true
   - name: RSS
     link: /feed.xml
