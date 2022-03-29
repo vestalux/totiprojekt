@@ -2,12 +2,8 @@
   link: /
   new_window: false
   highlight: false
-- name: Rólunk
-  link: /rolunk/
-  new_window: false
-  highlight: false
-- name: Szolgáltatások
-  link: /szolgaltatasok/
+- name: Pályázatunk
+  link: /palyazat/
   new_window: false
   highlight: false
 - name: Kapcsolat
