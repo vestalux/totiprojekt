@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: Senso
-url: "https://vestalux.github.io/senso/"
+title: Legyél Otthon- Esély Otthon Lengyeltótiban
+url: "https://legyelotthon.unikornismuko.hu"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -10,13 +10,13 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: A Senso varroda hímzés varrás szabás szolgáltatásokkal áll partnerei rendelkezésére
+description: EFOP-1.2.11-16-2017-00051
 author:
   name:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Varroda
+  name: Legyel Otthon
   links:
     - https://github.com/CloudCannon/hydra-jekyll-template
 
