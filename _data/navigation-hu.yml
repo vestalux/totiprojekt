@@ -11,6 +11,6 @@
   new_window: false
   highlight: false
 - name: Sajtóközlemény
-  link: /sajtokozlemeny.pdf
+  link: /images/sajtokozlemeny.pdf
   new_window: true
   highlight: false
