@@ -9,7 +9,7 @@
     social_icon: Facebook
   - name: Web
     link: http://lengyeltoti.hu
-    social_icon: Web
+    social_icon: RSS
     new_window: true
   - name: RSS
     link: /feed.xml
