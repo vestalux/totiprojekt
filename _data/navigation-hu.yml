@@ -1,0 +1,16 @@
+- name: Kezdőlap
+  link: /
+  new_window: false
+  highlight: false
+- name: Rólunk
+  link: /rolunk/
+  new_window: false
+  highlight: false
+- name: Szolgáltatások
+  link: /szolgaltatasok/
+  new_window: false
+  highlight: false
+- name: Kapcsolat
+  link: /kapcsolat/
+  new_window: false
+  highlight: false

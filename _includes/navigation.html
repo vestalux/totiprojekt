@@ -1,0 +1,45 @@
+<nav>
+	<a class="nav-toggle" id="open-nav" href="#">&#9776;</a>
+{% if page.lang == 'hu' %}
+	{% for link in site.data.navigation-hu %}
+		{% assign class = "" %}
+		{% if link.highlight %}
+			{% assign class = class | append: " highlight" %}
+		{% endif %}
+
+		{% if link.link == page.url %}
+			{% assign class = class | append: " active" %}
+		{% endif %}
+		<a href="{% include relative-src.html src=link.link %}" class="{{ class }}" {% if link.new_window %}target="_blank"{% endif %}>{{ link.name }}</a>
+	{% endfor %}
+{% endif %}	
+
+{% if page.lang == 'en' %}
+	{% for link in site.data.navigation-en %}
+		{% assign class = "" %}
+		{% if link.highlight %}
+			{% assign class = class | append: " highlight" %}
+		{% endif %}
+
+		{% if link.link == page.url %}
+			{% assign class = class | append: " active" %}
+		{% endif %}
+		<a href="{% include relative-src.html src=link.link %}" class="{{ class }}" {% if link.new_window %}target="_blank"{% endif %}>{{ link.name }}</a>
+	{% endfor %}
+{% endif %}	
+	
+{% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+{% for post in posts %}
+ 
+    <a href="{{ post.url }}" class="{{ post.lang }} highlight">{{ post.lang }}</a>
+
+{% endfor %}
+
+{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+{% for page in pages %}
+
+    <a href="{{ page.url }}" class="{{ page.lang }} highlight">{{ page.lang }}</a>
+
+{% endfor %}
+</nav>
+
